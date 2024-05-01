@@ -1,0 +1,19 @@
+`include "global.sv"
+`include "timescale.sv"
+
+module bias_conv1_rom(
+	input							clk,
+	input							rstn,
+	input	[`W_OUTPUT_BATCH:0]		aa,
+	input							cena,
+	output reg		[`WDP_BIAS_CONV1*`OUTPUT_NUM_CONV1 -1:0]	qa
+	);
+	
+	logic [0:`OUTPUT_BATCH_CONV1-1][0:`OUTPUT_NUM_CONV1-1][`WDP_BIAS_CONV1-1:0] weight	 = {	
+44'd26761648128,  44'd7146462208,  44'd121876004864,  44'd25475454976,  -44'd190604214272,  44'd42163142656
+	};
+	
+	always @(`CLK_RST_EDGE)
+		if (`RST)			qa <= 0;
+		else if (!cena)		qa <= weight[aa];	
+endmodule

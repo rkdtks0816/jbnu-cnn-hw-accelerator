@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Dec 14 15:09:19 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : RPI
+Top-level Entity Name : RPI_BLOCK
+Family : Cyclone IV E
+Total logic elements : 55,684
+    Total combinational functions : 45,047
+    Dedicated logic registers : 19,430
+Total registers : 19430
+Total pins : 40
+Total virtual pins : 0
+Total memory bits : 113,662
+Embedded Multiplier 9-bit elements : 276
+Total PLLs : 0

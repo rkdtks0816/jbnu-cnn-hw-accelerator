@@ -1,0 +1,177 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "lcd_en",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_rs",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_on",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO6",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[17]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[16]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[15]",
+					"strict" : false
+				},
+				{
+					"name" : "qa[7]",
+					"strict" : false
+				},
+				{
+					"name" : "qa[6]",
+					"strict" : false
+				},
+				{
+					"name" : "qa[5]",
+					"strict" : false
+				},
+				{
+					"name" : "qa[4]",
+					"strict" : false
+				},
+				{
+					"name" : "qa[3]",
+					"strict" : false
+				},
+				{
+					"name" : "qa[2]",
+					"strict" : false
+				},
+				{
+					"name" : "qa[1]",
+					"strict" : false
+				},
+				{
+					"name" : "qa[0]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO8",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO4",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rstn",
+					"strict" : false
+				},
+				{
+					"name" : "sw[0]",
+					"strict" : false
+				},
+				{
+					"name" : "key[1]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO24",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO22",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO20",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO18",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO16",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO14",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO12",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO10",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

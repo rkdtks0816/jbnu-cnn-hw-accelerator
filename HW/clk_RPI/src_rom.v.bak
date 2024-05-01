@@ -1,0 +1,91 @@
+`include "global.sv"
+`include "timescale.sv"
+
+module src_rom(
+	input				clk,
+	input				rstn,
+	input				en,
+	input				key_1,
+	input				rpi,
+	input				GPIO_10,
+	input				GPIO_12,
+	input				GPIO_14,
+	input				GPIO_16,
+	input				GPIO_18,
+	input				GPIO_20,
+	input				GPIO_22,
+	input				GPIO_24,
+	input				cena,
+	input	[11:0]			aa,
+
+	output	reg				ready,
+	output	reg	[`WD:0]	qa
+	);
+	
+	reg	[1:0]			din;
+	reg					push;
+	reg	[`WD:0]		db;
+	reg	[10:0]		ab;
+	reg					cenb;
+	wire					ab_max = ab == 10'd783;
+	wire					end_cenb = ab_max;
+	reg	[1:0]			din;
+	reg					push;
+
+
+	always @(posedge clk, negedge rstn) begin
+		if(rstn == 0) begin
+			din	<=	2'd0;
+			push	<=	1'b0;
+		end
+		else begin
+			if(en == 1) begin
+				din[0]	<=	key_1;
+				din[1]	<=	din[0];
+				if(din[0] == 1 && din[1] == 0) begin
+					push	<=	1'b1;
+				end
+				else begin
+					push	<=	1'b0;
+				end
+			end
+			else begin
+				din	<=	2'b0;
+				push	<=	1'b0;
+			end
+		end
+	end
+	
+	always @(posedge clk)
+		if (`RST)			cenb <= 0;
+		else if (push)			cenb <= 1;
+		else if (end_cenb)		cenb <= 0;
+
+	always @(posedge rpi)
+		if (`RST)	ab <= 0;
+		else if(cenb)	ab <= ab_max? 0: ab + 1;
+
+	always @(`CLK_RST_EDGE)
+		if (`RST)	ready <= 0;
+		else 		ready <= end_cenb;
+
+	always @(posedge rpi)
+		if (`RST)	db <= 0;
+		else begin
+				db[0] <= GPIO_10;
+				db[1] <= GPIO_12;
+				db[2] <= GPIO_14;
+				db[3] <= GPIO_16;
+				db[4] <= GPIO_18;
+				db[5] <= GPIO_20;
+				db[6] <= GPIO_22;
+				db[7] <= GPIO_24;
+		end	
+	
+	reg				[`WD:0]	mem[0:784];
+
+	always @(posedge rpi) if (cenb)	mem[ab] <= db;
+
+	always @(posedge clk) if (!cena)	qa <= mem[aa];
+	
+endmodule

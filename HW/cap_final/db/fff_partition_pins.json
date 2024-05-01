@@ -1,0 +1,181 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "lcd_en",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_rs",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_on",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "index[5]",
+					"strict" : false
+				},
+				{
+					"name" : "index[4]",
+					"strict" : false
+				},
+				{
+					"name" : "index[3]",
+					"strict" : false
+				},
+				{
+					"name" : "index[2]",
+					"strict" : false
+				},
+				{
+					"name" : "index[1]",
+					"strict" : false
+				},
+				{
+					"name" : "index[0]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[0]",
+					"strict" : false
+				},
+				{
+					"name" : "q_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "q_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "q_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "q_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "q_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "q_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "q_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "q_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "io[5]",
+					"strict" : false
+				},
+				{
+					"name" : "io[4]",
+					"strict" : false
+				},
+				{
+					"name" : "io[3]",
+					"strict" : false
+				},
+				{
+					"name" : "io[2]",
+					"strict" : false
+				},
+				{
+					"name" : "io[1]",
+					"strict" : false
+				},
+				{
+					"name" : "io[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rstn",
+					"strict" : false
+				},
+				{
+					"name" : "sw[0]",
+					"strict" : false
+				},
+				{
+					"name" : "key[1]",
+					"strict" : false
+				},
+				{
+					"name" : "iready",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

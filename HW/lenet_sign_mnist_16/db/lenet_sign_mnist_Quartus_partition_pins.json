@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ready",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_en",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_rs",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_on",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_dout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rstn",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				},
+				{
+					"name" : "go",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

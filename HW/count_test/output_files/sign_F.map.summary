@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Dec 19 23:48:39 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : sign_F
+Top-level Entity Name : sign_F_block
+Family : Cyclone IV E
+Total logic elements : 66,638
+    Total combinational functions : 56,134
+    Dedicated logic registers : 19,054
+Total registers : 19054
+Total pins : 24
+Total virtual pins : 0
+Total memory bits : 112,399
+Embedded Multiplier 9-bit elements : 276
+Total PLLs : 0

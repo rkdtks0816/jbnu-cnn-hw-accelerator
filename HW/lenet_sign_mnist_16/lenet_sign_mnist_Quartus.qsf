@@ -1,0 +1,96 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# Date created = 18:30:37  November 04, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		lenet_sign_mnist_Quartus_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY lenet_sign_mnist_Quartus_block
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:30:37  NOVEMBER 04, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name SYSTEMVERILOG_FILE wieght_fc3_rom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE wieght_fc2_rom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE wieght_fc1_rom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE wieght_conv2_rom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE wieght_conv1_rom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE timescale.sv
+set_global_assignment -name VERILOG_FILE text_lcd.v
+set_global_assignment -name VERILOG_FILE src_rom.v
+set_global_assignment -name VERILOG_FILE sign_mnist.v
+set_global_assignment -name SYSTEMVERILOG_FILE relu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE max_pool.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mac.sv
+set_global_assignment -name VERILOG_FILE lenet.v
+set_global_assignment -name SYSTEMVERILOG_FILE iterator_pooling.sv
+set_global_assignment -name SYSTEMVERILOG_FILE iterator_conv.sv
+set_global_assignment -name SYSTEMVERILOG_FILE global.sv
+set_global_assignment -name SYSTEMVERILOG_FILE conv.sv
+set_global_assignment -name SYSTEMVERILOG_FILE buffer.sv
+set_global_assignment -name SYSTEMVERILOG_FILE bias_fc3_rom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE bias_fc2_rom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE bias_fc1_rom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE bias_conv2_rom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE bias_conv1_rom.sv
+set_global_assignment -name SYSTEMVERILOG_FILE acc.sv
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name BDF_FILE lenet_sign_mnist_Quartus_block.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_M5 -to lcd_dout[7]
+set_location_assignment PIN_M3 -to lcd_dout[6]
+set_location_assignment PIN_K2 -to lcd_dout[5]
+set_location_assignment PIN_K1 -to lcd_dout[4]
+set_location_assignment PIN_K7 -to lcd_dout[3]
+set_location_assignment PIN_L2 -to lcd_dout[2]
+set_location_assignment PIN_L1 -to lcd_dout[1]
+set_location_assignment PIN_L3 -to lcd_dout[0]
+set_location_assignment PIN_L4 -to lcd_en
+set_location_assignment PIN_L5 -to lcd_on
+set_location_assignment PIN_M2 -to lcd_rs
+set_location_assignment PIN_M1 -to lcd_rw
+set_location_assignment PIN_Y2 -to clk
+set_location_assignment PIN_AB28 -to en
+set_location_assignment PIN_M21 -to go
+set_location_assignment PIN_M23 -to rstn
+set_location_assignment PIN_E21 -to ready
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

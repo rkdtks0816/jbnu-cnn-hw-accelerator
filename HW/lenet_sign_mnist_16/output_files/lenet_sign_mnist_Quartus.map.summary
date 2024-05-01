@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Dec 01 15:05:57 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : lenet_sign_mnist_Quartus
+Top-level Entity Name : lenet_sign_mnist_Quartus_block
+Family : Cyclone IV E
+Total logic elements : 58,079
+    Total combinational functions : 47,567
+    Dedicated logic registers : 19,049
+Total registers : 19049
+Total pins : 17
+Total virtual pins : 0
+Total memory bits : 111,614
+Embedded Multiplier 9-bit elements : 276
+Total PLLs : 0

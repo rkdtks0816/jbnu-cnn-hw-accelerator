@@ -1,0 +1,577 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/CNN
+vacc
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1639559847
+!i10b 1
+!s100 z5mZmmBI4^QBPc6z[:m8:1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+INhgd9MMz]C4:l=gl4j0XL2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1639558918
+8C:/CNN/acc.sv
+FC:/CNN/acc.sv
+!i122 136
+Z5 L0 3 136
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1639559847.000000
+!s107 timescale.sv|global.sv|C:/CNN/acc.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/acc.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+vbias_conv1_rom
+R1
+R2
+!i10b 1
+!s100 b<VX88[?hRMK8jlRefzCZ1
+R3
+ISoXJKgJiG@>XP]AnFPdBL3
+R4
+S1
+R0
+w1639559070
+8C:/CNN/bias_conv1_rom.sv
+FC:/CNN/bias_conv1_rom.sv
+!i122 137
+L0 4 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 timescale.sv|global.sv|C:/CNN/bias_conv1_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/bias_conv1_rom.sv|
+!i113 1
+R8
+R9
+vbias_conv2_rom
+R1
+R2
+!i10b 1
+!s100 mjfa]f3JJTGfYA2fMe0Xh0
+R3
+IH8a]4`KjocFNbjL6WoE@m0
+R4
+S1
+R0
+Z10 w1639559068
+8C:/CNN/bias_conv2_rom.sv
+FC:/CNN/bias_conv2_rom.sv
+!i122 138
+L0 3 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 timescale.sv|global.sv|C:/CNN/bias_conv2_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/bias_conv2_rom.sv|
+!i113 1
+R8
+R9
+vbias_fc1_rom
+R1
+R2
+!i10b 1
+!s100 VOBWi2Y1fFKQifd6UdA^E2
+R3
+IO>o<dzb;93]j9:DbV2RoO0
+R4
+S1
+R0
+R10
+8C:/CNN/bias_fc1_rom.sv
+FC:/CNN/bias_fc1_rom.sv
+!i122 139
+L0 3 24
+R6
+r1
+!s85 0
+31
+R7
+!s107 timescale.sv|global.sv|C:/CNN/bias_fc1_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/bias_fc1_rom.sv|
+!i113 1
+R8
+R9
+vbias_fc2_rom
+R1
+R2
+!i10b 1
+!s100 4g@]>cMl0YnokUNQ`7HR72
+R3
+I1HVVY8_BGAMfLD[>FkC2@2
+R4
+S1
+R0
+w1639559067
+8C:/CNN/bias_fc2_rom.sv
+FC:/CNN/bias_fc2_rom.sv
+!i122 140
+Z11 L0 3 22
+R6
+r1
+!s85 0
+31
+R7
+!s107 timescale.sv|global.sv|C:/CNN/bias_fc2_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/bias_fc2_rom.sv|
+!i113 1
+R8
+R9
+vbias_fc3_rom
+R1
+Z12 !s110 1639559848
+!i10b 1
+!s100 4Ze6?UO`]c?J:GjCZ@PR50
+R3
+I:b@S8^OBAIP^hhc@>f]d?1
+R4
+S1
+R0
+w1639559066
+8C:/CNN/bias_fc3_rom.sv
+FC:/CNN/bias_fc3_rom.sv
+!i122 141
+R11
+R6
+r1
+!s85 0
+31
+R7
+!s107 timescale.sv|global.sv|C:/CNN/bias_fc3_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/bias_fc3_rom.sv|
+!i113 1
+R8
+R9
+vbuffer
+R1
+R12
+!i10b 1
+!s100 z^UG9K;;k]]8gc^FC>>5>3
+R3
+ISCKk<kJE3Pg1S3^62aj::2
+R4
+S1
+R0
+w1638889446
+8C:/CNN/buffer.sv
+FC:/CNN/buffer.sv
+!i122 142
+L0 4 28
+R6
+r1
+!s85 0
+31
+Z13 !s108 1639559848.000000
+!s107 timescale.sv|global.sv|C:/CNN/buffer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/buffer.sv|
+!i113 1
+R8
+R9
+vclk_R
+R12
+!i10b 1
+!s100 E=WEAbm5]MV;eHEGldN0g3
+R3
+IE_iRZ??=S^S8RI?:<cjPJ3
+R4
+R0
+w1639551796
+8C:/CNN/clk_R.v
+FC:/CNN/clk_R.v
+!i122 143
+Z14 L0 3 61
+R6
+r1
+!s85 0
+31
+R13
+!s107 timescale.sv|global.sv|C:/CNN/clk_R.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CNN/clk_R.v|
+!i113 1
+Z15 o-work work
+R9
+nclk_@r
+vconv
+R1
+R12
+!i10b 1
+!s100 lQ<geQ0f[?g7T?@F63BA01
+R3
+IPV3bAk@O6677M@64zGSRU3
+R4
+S1
+R0
+w1635844558
+8C:/CNN/conv.sv
+FC:/CNN/conv.sv
+!i122 144
+R14
+R6
+r1
+!s85 0
+31
+R13
+!s107 timescale.sv|global.sv|C:/CNN/conv.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/conv.sv|
+!i113 1
+R8
+R9
+vdpram
+R12
+!i10b 1
+!s100 11FHB5hg]>>z_@;B^zIZ_1
+R3
+I1Hz4kSCQZ79e[W3NmbK?63
+R4
+R0
+w1639474038
+8C:/CNN/dpram_bb.v
+FC:/CNN/dpram_bb.v
+!i122 146
+L0 35 26
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/CNN/dpram_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CNN/dpram_bb.v|
+!i113 1
+R15
+R9
+viterator_conv
+R1
+R12
+!i10b 1
+!s100 zVez?P897UoUXXQ[j?BPD3
+R3
+I^]66dLcO;z4^`YS3>cHS82
+R4
+S1
+R0
+w1639559129
+8C:/CNN/iterator_conv.sv
+FC:/CNN/iterator_conv.sv
+!i122 147
+L0 3 168
+R6
+r1
+!s85 0
+31
+R13
+!s107 timescale.sv|global.sv|C:/CNN/iterator_conv.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/iterator_conv.sv|
+!i113 1
+R8
+R9
+viterator_pooling
+R1
+R12
+!i10b 1
+!s100 l3gJMF2lUVhU8^DAdLLM52
+R3
+IDdPo^C3HT2cIi;bYBf2]A0
+R4
+S1
+R0
+w1639559159
+8C:/CNN/iterator_pooling.sv
+FC:/CNN/iterator_pooling.sv
+!i122 148
+L0 3 151
+R6
+r1
+!s85 0
+31
+R13
+!s107 timescale.sv|global.sv|C:/CNN/iterator_pooling.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/iterator_pooling.sv|
+!i113 1
+R8
+R9
+vlenet
+R12
+!i10b 1
+!s100 h9K?Kb6:aPc1?j;ZQ;lze2
+R3
+IC5mVd54E5T_TAlWfI4kON0
+R4
+R0
+w1639559332
+8C:/CNN/lenet.v
+FC:/CNN/lenet.v
+!i122 149
+L0 3 1099
+R6
+r1
+!s85 0
+31
+R13
+!s107 timescale.sv|global.sv|C:/CNN/lenet.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CNN/lenet.v|
+!i113 1
+R15
+R9
+vmac
+R1
+R12
+!i10b 1
+!s100 6SjefTSce<Vj;RX[^PFE`3
+R3
+ILahbBZMjnE<_S6mgY592g3
+R4
+S1
+R0
+w1638864160
+8C:/CNN/mac.sv
+FC:/CNN/mac.sv
+!i122 150
+L0 3 91
+R6
+r1
+!s85 0
+31
+R13
+!s107 timescale.sv|global.sv|C:/CNN/mac.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/mac.sv|
+!i113 1
+R8
+R9
+vmax_pool
+R1
+R12
+!i10b 1
+!s100 dj?m`7AOU849NhfkSDGlT3
+R3
+I^k9CWgnaVj8::;FP7mi4j3
+R4
+S1
+R0
+w1638889381
+8C:/CNN/max_pool.sv
+FC:/CNN/max_pool.sv
+!i122 151
+L0 3 80
+R6
+r1
+!s85 0
+31
+R13
+!s107 timescale.sv|global.sv|C:/CNN/max_pool.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/max_pool.sv|
+!i113 1
+R8
+R9
+vrelu
+R1
+Z16 !s110 1639559849
+!i10b 1
+!s100 d[n22bYHXTNfG9W@MF:ge0
+R3
+I0Bh5OnbbbX;6143hB[c511
+R4
+S1
+R0
+w1639559395
+8C:/CNN/relu.sv
+FC:/CNN/relu.sv
+!i122 152
+L0 3 45
+R6
+r1
+!s85 0
+31
+R13
+!s107 timescale.sv|global.sv|C:/CNN/relu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/relu.sv|
+!i113 1
+R8
+R9
+vsrc_rom
+R16
+!i10b 1
+!s100 f^WPH63>MA7jS7c6SVLlG3
+R3
+I7^aVCk;0DRYgoiWIZiNe@1
+R4
+R0
+w1639536385
+8C:/CNN/src_rom.v
+FC:/CNN/src_rom.v
+!i122 153
+R5
+R6
+r1
+!s85 0
+31
+Z17 !s108 1639559849.000000
+!s107 timescale.sv|global.sv|C:/CNN/src_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CNN/src_rom.v|
+!i113 1
+R15
+R9
+vtext_lcd
+R16
+!i10b 1
+!s100 Qz?Z1O<ca]QS_fga5<zS30
+R3
+IC8=KdO]zTX;O^lJzzCb5n0
+R4
+R0
+w1639557808
+8C:/CNN/text_lcd.v
+FC:/CNN/text_lcd.v
+!i122 154
+L0 3 610
+R6
+r1
+!s85 0
+31
+R17
+!s107 timescale.sv|global.sv|C:/CNN/text_lcd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CNN/text_lcd.v|
+!i113 1
+R15
+R9
+vwieght_conv1_rom
+R1
+R16
+!i10b 1
+!s100 bIAUg;PHI7Vf4Wkm2G@Q]2
+R3
+IaL<MFQi6DXC<3TYj?G6M;3
+R4
+S1
+R0
+w1639559403
+8C:/CNN/wieght_conv1_rom.sv
+FC:/CNN/wieght_conv1_rom.sv
+!i122 155
+L0 3 51
+R6
+r1
+!s85 0
+31
+R17
+!s107 timescale.sv|global.sv|C:/CNN/wieght_conv1_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/wieght_conv1_rom.sv|
+!i113 1
+R8
+R9
+vwieght_conv2_rom
+R1
+R16
+!i10b 1
+!s100 de]hMD1fKhilldGc>oZD53
+R3
+IOXi9IS2e[NL2BKbegK1N83
+R4
+S1
+R0
+w1639559410
+8C:/CNN/wieght_conv2_rom.sv
+FC:/CNN/wieght_conv2_rom.sv
+!i122 156
+L0 3 450
+R6
+r1
+!s85 0
+31
+R17
+!s107 timescale.sv|global.sv|C:/CNN/wieght_conv2_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/wieght_conv2_rom.sv|
+!i113 1
+R8
+R9
+vwieght_fc1_rom
+R1
+R16
+!i10b 1
+!s100 =^;2DNLNLSe8W@zAS]nX92
+R3
+ImnCo1J;>mO:XKYgc362g:1
+R4
+S1
+R0
+w1639559416
+8C:/CNN/wieght_fc1_rom.sv
+FC:/CNN/wieght_fc1_rom.sv
+!i122 157
+L0 3 1108
+R6
+r1
+!s85 0
+31
+R17
+!s107 timescale.sv|global.sv|C:/CNN/wieght_fc1_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/wieght_fc1_rom.sv|
+!i113 1
+R8
+R9
+vwieght_fc2_rom
+R1
+R16
+!i10b 1
+!s100 NFEHebgmF9F_blf2?XO=z1
+R3
+ICzbz]dCh[>E]U78`mI>131
+R4
+S1
+R0
+w1639559422
+8C:/CNN/wieght_fc2_rom.sv
+FC:/CNN/wieght_fc2_rom.sv
+!i122 158
+L0 3 180
+R6
+r1
+!s85 0
+31
+R17
+!s107 timescale.sv|global.sv|C:/CNN/wieght_fc2_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/wieght_fc2_rom.sv|
+!i113 1
+R8
+R9
+vwieght_fc3_rom
+R1
+R16
+!i10b 1
+!s100 ^iLT84:cG`4ZP`W?eK^Ve1
+R3
+Ia`CaoN]FjdSNo@imzYk6d1
+R4
+S1
+R0
+w1639559428
+8C:/CNN/wieght_fc3_rom.sv
+FC:/CNN/wieght_fc3_rom.sv
+!i122 159
+L0 3 95
+R6
+r1
+!s85 0
+31
+R17
+!s107 timescale.sv|global.sv|C:/CNN/wieght_fc3_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/CNN/wieght_fc3_rom.sv|
+!i113 1
+R8
+R9

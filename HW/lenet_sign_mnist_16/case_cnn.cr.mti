@@ -1,0 +1,168 @@
+C:/lenet_sign_mnist_16/wieght_fc1_rom.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/wieght_fc1_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wieght_fc1_rom
+
+Top level modules:
+	wieght_fc1_rom
+
+} {} {}} C:/lenet_sign_mnist_16/bias_fc2_rom.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/bias_fc2_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bias_fc2_rom
+
+Top level modules:
+	bias_fc2_rom
+
+} {} {}} C:/lenet_sign_mnist_16/conv.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/conv.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module conv
+
+Top level modules:
+	conv
+
+} {} {}} C:/lenet_sign_mnist_16/timescale.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/timescale.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} C:/lenet_sign_mnist_16/acc.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/acc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module acc
+
+Top level modules:
+	acc
+
+} {} {}} C:/lenet_sign_mnist_16/wieght_fc3_rom.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/wieght_fc3_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wieght_fc3_rom
+
+Top level modules:
+	wieght_fc3_rom
+
+} {} {}} C:/lenet_sign_mnist_16/global.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/global.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} C:/lenet_sign_mnist_16/buffer.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/buffer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module buffer
+
+Top level modules:
+	buffer
+
+} {} {}} C:/lenet_sign_mnist_16/wieght_conv1_rom.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/wieght_conv1_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wieght_conv1_rom
+
+Top level modules:
+	wieght_conv1_rom
+
+} {} {}} C:/lenet_sign_mnist_16/bias_conv2_rom.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/bias_conv2_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bias_conv2_rom
+
+Top level modules:
+	bias_conv2_rom
+
+} {} {}} C:/lenet_sign_mnist_16/text_lcd.v {1 {vlog -work work -stats=none C:/lenet_sign_mnist_16/text_lcd.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module text_lcd
+
+Top level modules:
+	text_lcd
+
+} {} {}} C:/lenet_sign_mnist_16/bias_fc1_rom.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/bias_fc1_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bias_fc1_rom
+
+Top level modules:
+	bias_fc1_rom
+
+} {} {}} C:/lenet_sign_mnist_16/wieght_fc2_rom.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/wieght_fc2_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wieght_fc2_rom
+
+Top level modules:
+	wieght_fc2_rom
+
+} {} {}} C:/lenet_sign_mnist_16/max_pool.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/max_pool.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module max_pool
+
+Top level modules:
+	max_pool
+
+} {} {}} C:/lenet_sign_mnist_16/bias_fc3_rom.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/bias_fc3_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bias_fc3_rom
+
+Top level modules:
+	bias_fc3_rom
+
+} {} {}} C:/lenet_sign_mnist_16/iterator_conv.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/iterator_conv.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module iterator_conv
+
+Top level modules:
+	iterator_conv
+
+} {} {}} C:/lenet_sign_mnist_16/sign_mnist.v {1 {vlog -work work -stats=none C:/lenet_sign_mnist_16/sign_mnist.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sign_mnist
+
+Top level modules:
+	sign_mnist
+
+} {} {}} C:/lenet_sign_mnist_16/relu.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/relu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module relu
+
+Top level modules:
+	relu
+
+} {} {}} C:/lenet_sign_mnist_16/mac.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/mac.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mac
+
+Top level modules:
+	mac
+
+} {} {}} C:/lenet_sign_mnist_16/iterator_pooling.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/iterator_pooling.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module iterator_pooling
+
+Top level modules:
+	iterator_pooling
+
+} {} {}} C:/lenet_sign_mnist_16/src_rom.v {1 {vlog -work work -stats=none C:/lenet_sign_mnist_16/src_rom.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module src_rom
+
+Top level modules:
+	src_rom
+
+} {} {}} C:/lenet_sign_mnist_16/lenet_tb.v {1 {vlog -work work -stats=none C:/lenet_sign_mnist_16/lenet_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module lenet_tb
+
+Top level modules:
+	lenet_tb
+
+} {} {}} C:/lenet_sign_mnist_16/bias_conv1_rom.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/bias_conv1_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bias_conv1_rom
+
+Top level modules:
+	bias_conv1_rom
+
+} {} {}} C:/lenet_sign_mnist_16/wieght_conv2_rom.sv {1 {vlog -work work -sv -stats=none C:/lenet_sign_mnist_16/wieght_conv2_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wieght_conv2_rom
+
+Top level modules:
+	wieght_conv2_rom
+
+} {} {}} C:/lenet_sign_mnist_16/lenet.v {1 {vlog -work work -stats=none C:/lenet_sign_mnist_16/lenet.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module lenet
+
+Top level modules:
+	lenet
+
+} {} {}}

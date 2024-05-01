@@ -1,0 +1,576 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/lenet_sign_mnist
+vacc
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1638254309
+!i10b 1
+!s100 TAkW4TaIiVHhWMozQ`1CV0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IB2Q7_;SVjC2VgS1QW88Ii2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/lenet_sign_mnist_16
+w1636012704
+8C:/lenet_sign_mnist_16/acc.sv
+FC:/lenet_sign_mnist_16/acc.sv
+!i122 115
+L0 3 99
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1638254308.000000
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/acc.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/acc.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vbias_conv1_rom
+R0
+R1
+!i10b 1
+!s100 b3FI?5zLG^jJ7;gO<9LS13
+R2
+IXFZRafF]LW>GaZFIUEn0J2
+R3
+S1
+R4
+w1636040383
+8C:/lenet_sign_mnist_16/bias_conv1_rom.sv
+FC:/lenet_sign_mnist_16/bias_conv1_rom.sv
+!i122 116
+L0 4 16
+R5
+r1
+!s85 0
+31
+Z8 !s108 1638254309.000000
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/bias_conv1_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/bias_conv1_rom.sv|
+!i113 1
+R6
+R7
+vbias_conv2_rom
+R0
+R1
+!i10b 1
+!s100 i5Okz6]APALK42chKBBQ]2
+R2
+IS]10`6T@cl95Do7mfNgie0
+R3
+S1
+R4
+w1636040431
+8C:/lenet_sign_mnist_16/bias_conv2_rom.sv
+FC:/lenet_sign_mnist_16/bias_conv2_rom.sv
+!i122 117
+L0 3 15
+R5
+r1
+!s85 0
+31
+R8
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/bias_conv2_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/bias_conv2_rom.sv|
+!i113 1
+R6
+R7
+vbias_fc1_rom
+R0
+R1
+!i10b 1
+!s100 lL2gZT;84KS71nmXPYj?12
+R2
+I2CQ[@iDfd6;D29X4X8FTM2
+R3
+S1
+R4
+w1636040499
+8C:/lenet_sign_mnist_16/bias_fc1_rom.sv
+FC:/lenet_sign_mnist_16/bias_fc1_rom.sv
+!i122 118
+L0 3 19
+R5
+r1
+!s85 0
+31
+R8
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/bias_fc1_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/bias_fc1_rom.sv|
+!i113 1
+R6
+R7
+vbias_fc2_rom
+R0
+R1
+!i10b 1
+!s100 Bhn0RNWLJF24]A@B9MRfR2
+R2
+IeQz@iXWME2C[4VYOId90F0
+R3
+S1
+R4
+w1636040558
+8C:/lenet_sign_mnist_16/bias_fc2_rom.sv
+FC:/lenet_sign_mnist_16/bias_fc2_rom.sv
+!i122 119
+L0 3 16
+R5
+r1
+!s85 0
+31
+R8
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/bias_fc2_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/bias_fc2_rom.sv|
+!i113 1
+R6
+R7
+vbias_fc3_rom
+R0
+R1
+!i10b 1
+!s100 L<LHVT?5HK^K^MnXaj87[3
+R2
+I6Zc8UF6CSfFEoBj`PGSX>2
+R3
+S1
+R4
+w1636040603
+8C:/lenet_sign_mnist_16/bias_fc3_rom.sv
+FC:/lenet_sign_mnist_16/bias_fc3_rom.sv
+!i122 120
+L0 3 17
+R5
+r1
+!s85 0
+31
+R8
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/bias_fc3_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/bias_fc3_rom.sv|
+!i113 1
+R6
+R7
+vbuffer
+R0
+R1
+!i10b 1
+!s100 6VWNmAh^d0UUaSQHD>_mj0
+R2
+I8G5c;KJK4V4><;K2mN1jj1
+R3
+S1
+R4
+w1636007705
+8C:/lenet_sign_mnist_16/buffer.sv
+FC:/lenet_sign_mnist_16/buffer.sv
+!i122 121
+L0 4 20
+R5
+r1
+!s85 0
+31
+R8
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/buffer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/buffer.sv|
+!i113 1
+R6
+R7
+vconv
+R0
+R1
+!i10b 1
+!s100 lQ<geQ0f[?g7T?@F63BA01
+R2
+Ifm][Xj_I5^U_44igm5M442
+R3
+S1
+R4
+w1635844558
+8C:/lenet_sign_mnist_16/conv.sv
+FC:/lenet_sign_mnist_16/conv.sv
+!i122 122
+L0 3 61
+R5
+r1
+!s85 0
+31
+R8
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/conv.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/conv.sv|
+!i113 1
+R6
+R7
+viterator_conv
+R0
+Z9 !s110 1638254310
+!i10b 1
+!s100 J9adggK>0LH[V^lAB`OB63
+R2
+IU_[ze;]jJ_AN<1zP^8i050
+R3
+S1
+R4
+w1636007252
+8C:/lenet_sign_mnist_16/iterator_conv.sv
+FC:/lenet_sign_mnist_16/iterator_conv.sv
+!i122 123
+L0 3 91
+R5
+r1
+!s85 0
+31
+Z10 !s108 1638254310.000000
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/iterator_conv.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/iterator_conv.sv|
+!i113 1
+R6
+R7
+viterator_pooling
+R0
+R9
+!i10b 1
+!s100 >;06Oz9ABV7ARU`=Ycc2]2
+R2
+IhU]0h6>Dk^<H0]c?n3jPe2
+R3
+S1
+R4
+w1636007516
+8C:/lenet_sign_mnist_16/iterator_pooling.sv
+FC:/lenet_sign_mnist_16/iterator_pooling.sv
+!i122 124
+L0 3 82
+R5
+r1
+!s85 0
+31
+R10
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/iterator_pooling.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/iterator_pooling.sv|
+!i113 1
+R6
+R7
+vlenet
+R9
+!i10b 1
+!s100 dOj97Fl_;9;]SGo1SN2^N3
+R2
+IbGFLOX9Hh;X[a?d<^VLlX1
+R3
+R4
+w1636009973
+8C:/lenet_sign_mnist_16/lenet.v
+FC:/lenet_sign_mnist_16/lenet.v
+!i122 125
+L0 3 876
+R5
+r1
+!s85 0
+31
+R10
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/lenet.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/lenet_sign_mnist_16/lenet.v|
+!i113 1
+Z11 o-work work
+R7
+vlenet_tb
+R9
+!i10b 1
+!s100 W8`7SEDhcXA6mTHHa=JfL0
+R2
+I9iDW55zBO43U65H=dT0RK1
+R3
+R4
+w1636009744
+8C:/lenet_sign_mnist_16/lenet_tb.v
+FC:/lenet_sign_mnist_16/lenet_tb.v
+!i122 126
+L0 3 103
+R5
+r1
+!s85 0
+31
+R10
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/lenet_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/lenet_sign_mnist_16/lenet_tb.v|
+!i113 1
+R11
+R7
+vmac
+R0
+Z12 !s110 1638254311
+!i10b 1
+!s100 no1CEF<bj48k5Khk6nfI41
+R2
+IToK];gH[1bLW[HWWoIVMb3
+R3
+S1
+R4
+w1635408604
+8C:/lenet_sign_mnist_16/mac.sv
+FC:/lenet_sign_mnist_16/mac.sv
+!i122 127
+L0 3 72
+R5
+r1
+!s85 0
+31
+R10
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/mac.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/mac.sv|
+!i113 1
+R6
+R7
+vmax_pool
+R0
+R12
+!i10b 1
+!s100 T5^oRbY5eJk[I;=`g[bMT3
+R2
+IY?zXBW4fYl5PeceBGSB3F0
+R3
+S1
+R4
+w1635406528
+8C:/lenet_sign_mnist_16/max_pool.sv
+FC:/lenet_sign_mnist_16/max_pool.sv
+!i122 128
+L0 3 49
+R5
+r1
+!s85 0
+31
+Z13 !s108 1638254311.000000
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/max_pool.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/max_pool.sv|
+!i113 1
+R6
+R7
+vrelu
+R0
+R12
+!i10b 1
+!s100 <lE3jncPg0aMWogEbTVmf0
+R2
+I1?69lKT:R8Q6joJTRLifM0
+R3
+S1
+R4
+w1635406734
+8C:/lenet_sign_mnist_16/relu.sv
+FC:/lenet_sign_mnist_16/relu.sv
+!i122 129
+L0 3 31
+R5
+r1
+!s85 0
+31
+R13
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/relu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/relu.sv|
+!i113 1
+R6
+R7
+vsign_mnist
+R12
+!i10b 1
+!s100 j85UQYz>]U2?V_gRPk[Wi3
+R2
+I=`0jc3MZ]gTInl03eh@^W1
+R3
+R4
+w1636263580
+8C:/lenet_sign_mnist_16/sign_mnist.v
+FC:/lenet_sign_mnist_16/sign_mnist.v
+!i122 130
+L0 4 3239
+R5
+r1
+!s85 0
+31
+R13
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/sign_mnist.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/lenet_sign_mnist_16/sign_mnist.v|
+!i113 1
+R11
+R7
+vsrc_rom
+R12
+!i10b 1
+!s100 A35^oFF?[zGNS4j[WN5jI2
+R2
+I@TQCeYBd6P<DIijJGgb0z3
+R3
+R4
+w1636009757
+8C:/lenet_sign_mnist_16/src_rom.v
+FC:/lenet_sign_mnist_16/src_rom.v
+!i122 131
+L0 4 42
+R5
+r1
+!s85 0
+31
+R13
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/src_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/lenet_sign_mnist_16/src_rom.v|
+!i113 1
+R11
+R7
+vtext_lcd
+R12
+!i10b 1
+!s100 >UdfASn4GGBiBN6^5o7Od1
+R2
+IgaM^0[]g0U2OKbBiB2KZ=3
+R3
+R4
+w1635339080
+8C:/lenet_sign_mnist_16/text_lcd.v
+FC:/lenet_sign_mnist_16/text_lcd.v
+!i122 132
+L0 3 603
+R5
+r1
+!s85 0
+31
+R13
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/text_lcd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/lenet_sign_mnist_16/text_lcd.v|
+!i113 1
+R11
+R7
+vwieght_conv1_rom
+R0
+Z14 !s110 1638254312
+!i10b 1
+!s100 6UUO35ZeNohOK8>=O:_Wg3
+R2
+IPao=R6O`P3>_8C4M3lnce3
+R3
+S1
+R4
+w1636040333
+8C:/lenet_sign_mnist_16/wieght_conv1_rom.sv
+FC:/lenet_sign_mnist_16/wieght_conv1_rom.sv
+!i122 133
+L0 3 48
+R5
+r1
+!s85 0
+31
+Z15 !s108 1638254312.000000
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/wieght_conv1_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/wieght_conv1_rom.sv|
+!i113 1
+R6
+R7
+vwieght_conv2_rom
+R0
+R14
+!i10b 1
+!s100 2lCOHLGURKDaHMZU^C2Nm3
+R2
+IRU3e12NW@49;7Q[]^XNn<2
+R3
+S1
+R4
+w1636040410
+8C:/lenet_sign_mnist_16/wieght_conv2_rom.sv
+FC:/lenet_sign_mnist_16/wieght_conv2_rom.sv
+!i122 134
+L0 3 446
+R5
+r1
+!s85 0
+31
+R15
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/wieght_conv2_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/wieght_conv2_rom.sv|
+!i113 1
+R6
+R7
+vwieght_fc1_rom
+R0
+R14
+!i10b 1
+!s100 EVRhc__Caa73DC2enFVZ]1
+R2
+IehoURoNX0g]4XR;NCMgkO1
+R3
+S1
+R4
+w1636040479
+8C:/lenet_sign_mnist_16/wieght_fc1_rom.sv
+FC:/lenet_sign_mnist_16/wieght_fc1_rom.sv
+!i122 135
+L0 3 1101
+R5
+r1
+!s85 0
+31
+R15
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/wieght_fc1_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/wieght_fc1_rom.sv|
+!i113 1
+R6
+R7
+vwieght_fc2_rom
+R0
+R14
+!i10b 1
+!s100 zTUNiZnDT4ZS37DCBPlYE1
+R2
+IQaj=bhW@]4a8]_U26fTG@2
+R3
+S1
+R4
+w1636040541
+8C:/lenet_sign_mnist_16/wieght_fc2_rom.sv
+FC:/lenet_sign_mnist_16/wieght_fc2_rom.sv
+!i122 136
+L0 3 173
+R5
+r1
+!s85 0
+31
+R15
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/wieght_fc2_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/wieght_fc2_rom.sv|
+!i113 1
+R6
+R7
+vwieght_fc3_rom
+R0
+R14
+!i10b 1
+!s100 599a5C]DkFMJ79gY3mL;^2
+R2
+IQi>IZEBibXIAUiiJNUL0G3
+R3
+S1
+R4
+w1636040587
+8C:/lenet_sign_mnist_16/wieght_fc3_rom.sv
+FC:/lenet_sign_mnist_16/wieght_fc3_rom.sv
+!i122 137
+L0 3 89
+R5
+r1
+!s85 0
+31
+R15
+!s107 timescale.sv|global.sv|C:/lenet_sign_mnist_16/wieght_fc3_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/lenet_sign_mnist_16/wieght_fc3_rom.sv|
+!i113 1
+R6
+R7

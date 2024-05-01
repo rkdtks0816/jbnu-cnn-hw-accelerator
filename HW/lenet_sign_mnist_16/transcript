@@ -1,0 +1,33 @@
+# Reading pref.tcl
+# OpenFile C:/lenet_sign_mnist_16/case_cnn.mpf
+# Loading project case_cnn
+vsim -gui work.lenet_tb
+# vsim -gui work.lenet_tb 
+# Start time: 14:32:32 on Dec 14,2021
+# Loading work.lenet_tb
+# Loading work.sign_mnist
+# Loading work.src_rom
+# Loading work.lenet
+# Loading sv_std.std
+# Loading work.wieght_conv1_rom
+# Loading work.bias_conv1_rom
+# Loading work.iterator_conv
+# Loading work.conv
+# Loading work.buffer
+# Loading work.iterator_pooling
+# Loading work.max_pool
+# Loading work.relu
+# Loading work.wieght_conv2_rom
+# Loading work.bias_conv2_rom
+# Loading work.wieght_fc1_rom
+# Loading work.bias_fc1_rom
+# Loading work.wieght_fc2_rom
+# Loading work.bias_fc2_rom
+# Loading work.wieght_fc3_rom
+# Loading work.bias_fc3_rom
+# Loading work.text_lcd
+# Loading work.acc
+# Loading work.mac
+add wave -position insertpoint sim:/lenet_tb/*
+# End time: 14:33:19 on Dec 14,2021, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 1

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Dec 03 17:30:06 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : sign_F
+Top-level Entity Name : sign_F_block
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 51,720 / 114,480 ( 45 % )
+    Total combinational functions : 47,413 / 114,480 ( 41 % )
+    Dedicated logic registers : 13,216 / 114,480 ( 12 % )
+Total registers : 13216
+Total pins : 24 / 529 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 112,399 / 3,981,312 ( 3 % )
+Embedded Multiplier 9-bit elements : 276 / 532 ( 52 % )
+Total PLLs : 0 / 4 ( 0 % )

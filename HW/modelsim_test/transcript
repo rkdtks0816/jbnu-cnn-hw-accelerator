@@ -1,0 +1,66 @@
+# Reading pref.tcl
+# OpenFile C:/CNN_test/CNN_test.mpf
+# Loading project CNN_test
+vsim -gui work.lenet_tb
+# vsim -gui work.lenet_tb 
+# Start time: 16:13:00 on Dec 16,2021
+# Loading sv_std.std
+# Loading work.lenet_tb
+# Loading work.itf_frame_feed
+# Loading work.lenet
+# Loading work.wieght_conv1_rom
+# Loading work.bias_conv1_rom
+# Loading work.iterator_conv
+# Loading work.conv
+# Loading work.buffer
+# Loading work.iterator_pooling
+# Loading work.max_pool
+# Loading work.relu
+# Loading work.wieght_conv2_rom
+# Loading work.bias_conv2_rom
+# Loading work.wieght_fc1_rom
+# Loading work.bias_fc1_rom
+# Loading work.wieght_fc2_rom
+# Loading work.bias_fc2_rom
+# Loading work.wieght_fc3_rom
+# Loading work.bias_fc3_rom
+# Loading work.src_rom
+# Loading work.acc
+# Loading work.mac
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'lenet'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /lenet_tb/lenet File: C:/CNN_test/lenet_tb.sv Line: 68
+# ** Warning: (vsim-3722) C:/CNN_test/lenet_tb.sv(68): [TFMPC] - Missing connection for port 'en_text_lcd'.
+add wave -position insertpoint sim:/lenet_tb/*
+run -all
+# T                1000 rstn done#############################
+# T            41065000==process a frame         0, digit  6 =============
+# T            82129000==process a frame         1, digit  5 =============
+# T           123193000==process a frame         2, digit 10 =============
+# T           164257000==process a frame         3, digit  0 =============
+# T           205321000==process a frame         4, digit  3 =============
+# T           246385000==process a frame         5, digit 21 =============
+# T           287449000==process a frame         6, digit 10 =============
+# T           328513000==process a frame         7, digit 14 =============
+# T           369577000==process a frame         8, digit  3 =============
+# T           410641000==process a frame         9, digit  7 =============
+# T           451705000==process a frame        10, digit  8 =============
+# T           492769000==process a frame        11, digit  8 =============
+# T           533833000==process a frame        12, digit 22 =============
+# T           574897000==process a frame        13, digit 12 =============
+# T           615961000==process a frame        14, digit  7 =============
+# T           657025000==process a frame        15, digit  4 =============
+# T           698089000==process a frame        16, digit 22 =============
+# T           739153000==process a frame        17, digit  0 =============
+# T           780217000==process a frame        18, digit  7 =============
+# T           821281000==process a frame        19, digit  7 =============
+# T           862345000==process a frame        20, digit  2 =============
+# T           903409000==process a frame        21, digit  0 =============
+# T           944473000==process a frame        22, digit 21 =============
+# T           985537000==process a frame        23, digit  4 =============
+# T          1026601000==process a frame        24, digit 10 =============
+# ** Note: $finish    : C:/CNN_test/lenet_tb.sv(60)
+#    Time: 1026606 us  Iteration: 0  Instance: /lenet_tb
+# 1
+# Break in Module lenet_tb at C:/CNN_test/lenet_tb.sv line 60
+# End time: 17:13:08 on Dec 16,2021, Elapsed time: 1:00:08
+# Errors: 0, Warnings: 3

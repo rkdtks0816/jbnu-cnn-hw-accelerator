@@ -1,0 +1,161 @@
+C:/CNN_test/wieght_fc3_rom.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/wieght_fc3_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wieght_fc3_rom
+
+Top level modules:
+	wieght_fc3_rom
+
+} {} {}} C:/CNN_test/itf_frame_feed.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/itf_frame_feed.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling interface itf_frame_feed
+
+Top level modules:
+	--none--
+
+} {} {}} C:/CNN_test/global.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/global.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} C:/CNN_test/buffer.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/buffer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module buffer
+
+Top level modules:
+	buffer
+
+} {} {}} C:/CNN_test/wieght_conv1_rom.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/wieght_conv1_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wieght_conv1_rom
+
+Top level modules:
+	wieght_conv1_rom
+
+} {} {}} C:/CNN_test/bias_conv2_rom.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/bias_conv2_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bias_conv2_rom
+
+Top level modules:
+	bias_conv2_rom
+
+} {} {}} C:/CNN_test/src_rom.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/src_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module src_rom
+
+Top level modules:
+	src_rom
+
+} {} {}} C:/CNN_test/lenet_tb.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/lenet_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module lenet_tb
+
+Top level modules:
+	lenet_tb
+
+} {} {}} C:/CNN_test/bias_fc1_rom.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/bias_fc1_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bias_fc1_rom
+
+Top level modules:
+	bias_fc1_rom
+
+} {} {}} C:/CNN_test/iterator_conv.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/iterator_conv.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module iterator_conv
+
+Top level modules:
+	iterator_conv
+
+} {} {}} C:/CNN_test/wieght_fc2_rom.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/wieght_fc2_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wieght_fc2_rom
+
+Top level modules:
+	wieght_fc2_rom
+
+} {} {}} C:/CNN_test/max_pool.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/max_pool.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module max_pool
+
+Top level modules:
+	max_pool
+
+} {} {}} C:/CNN_test/bias_fc3_rom.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/bias_fc3_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bias_fc3_rom
+
+Top level modules:
+	bias_fc3_rom
+
+} {} {}} C:/CNN_test/relu.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/relu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module relu
+
+Top level modules:
+	relu
+
+} {} {}} C:/CNN_test/iterator_pooling.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/iterator_pooling.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module iterator_pooling
+
+Top level modules:
+	iterator_pooling
+
+} {} {}} C:/CNN_test/mac.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/mac.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mac
+
+Top level modules:
+	mac
+
+} {} {}} C:/CNN_test/bias_conv1_rom.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/bias_conv1_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bias_conv1_rom
+
+Top level modules:
+	bias_conv1_rom
+
+} {} {}} C:/CNN_test/wieght_conv2_rom.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/wieght_conv2_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wieght_conv2_rom
+
+Top level modules:
+	wieght_conv2_rom
+
+} {} {}} C:/CNN_test/lenet.v {1 {vlog -work work -stats=none C:/CNN_test/lenet.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module lenet
+
+Top level modules:
+	lenet
+
+} {} {}} C:/CNN_test/conv.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/conv.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module conv
+
+Top level modules:
+	conv
+
+} {} {}} C:/CNN_test/bias_fc2_rom.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/bias_fc2_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bias_fc2_rom
+
+Top level modules:
+	bias_fc2_rom
+
+} {} {}} C:/CNN_test/wieght_fc1_rom.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/wieght_fc1_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wieght_fc1_rom
+
+Top level modules:
+	wieght_fc1_rom
+
+} {} {}} C:/CNN_test/acc.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/acc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module acc
+
+Top level modules:
+	acc
+
+} {} {}} C:/CNN_test/timescale.sv {1 {vlog -work work -sv -stats=none C:/CNN_test/timescale.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}}

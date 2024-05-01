@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Dec 21 08:58:31 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : fff
+Top-level Entity Name : fff
+Family : Cyclone IV E
+Total logic elements : 57,745
+    Total combinational functions : 47,242
+    Dedicated logic registers : 19,049
+Total registers : 19049
+Total pins : 45
+Total virtual pins : 0
+Total memory bits : 111,614
+Embedded Multiplier 9-bit elements : 276
+Total PLLs : 0
